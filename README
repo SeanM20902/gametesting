@@ -1,3 +1,20 @@
-list your name here if you are able to succesfully push
+Authored by Sean Mohs, Kenneth Milburn, Owen Hammer 2022
+Repo for gametesting
+
+Conventions and tips for manipulating this Repo:
+git pull                        pulls from master branch to local; always                          pull before staging local commits
+                                
+git status                      lists all local changes
+
+git add filename                choose which files to commit to master
+
+git commit -m "message"         convention to commit local changes
+
+git push                        push local commits to master
+
+https://github.com/SeanM20902/gametesting
+
+
+locally edit this file by listing your name below if you are able to succesfully access and push to the above repository
 
 Sean
