@@ -4,6 +4,8 @@
   "name": "Test Platformer",
   "resources": [
     {"id":{"name":"sBG","path":"sprites/sBG/sBG.yy",},"order":2,},
+    {"id":{"name":"oSword","path":"objects/oSword/oSword.yy",},"order":6,},
+    {"id":{"name":"oShootPerson","path":"objects/oShootPerson/oShootPerson.yy",},"order":8,},
     {"id":{"name":"BGM2","path":"objects/BGM2/BGM2.yy",},"order":3,},
     {"id":{"name":"tyuio","path":"objects/tyuio/tyuio.yy",},"order":4,},
     {"id":{"name":"oPro","path":"objects/oPro/oPro.yy",},"order":0,},
@@ -14,8 +16,12 @@
     {"id":{"name":"bgm2","path":"sounds/bgm2/bgm2.yy",},"order":1,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":1,},
     {"id":{"name":"sPro2","path":"sprites/sPro2/sPro2.yy",},"order":3,},
+    {"id":{"name":"oLaser","path":"objects/oLaser/oLaser.yy",},"order":7,},
     {"id":{"name":"BigRoom","path":"rooms/BigRoom/BigRoom.yy",},"order":1,},
+    {"id":{"name":"sLaser","path":"sprites/sLaser/sLaser.yy",},"order":5,},
+    {"id":{"name":"sSword","path":"sprites/sSword/sSword.yy",},"order":4,},
     {"id":{"name":"BGM3","path":"objects/BGM3/BGM3.yy",},"order":5,},
+    {"id":{"name":"sShootPerson","path":"sprites/sShootPerson/sShootPerson.yy",},"order":6,},
     {"id":{"name":"Juice_WRLD___All_Girls_Are_The_Same__Directed_by_Cole_Bennett_","path":"sounds/Juice_WRLD___All_Girls_Are_The_Same__Directed_by_Cole_Bennett_/Juice_WRLD___All_Girls_Are_The_Same__Directed_by_Cole_Bennett_.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
@@ -31,8 +37,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"BigRoom","path":"rooms/BigRoom/BigRoom.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"BigRoom","path":"rooms/BigRoom/BigRoom.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},

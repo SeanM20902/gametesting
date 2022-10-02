@@ -1,8 +1,9 @@
-kl = keyboard_check(ord("A"));
-kr = keyboard_check(ord("D"));
+kl = keyboard_check(ord("A")) || keyboard_check(vk_left);
+kr = keyboard_check(ord("D")) || keyboard_check(vk_right);
 ks = keyboard_check(vk_shift);
-kd = keyboard_check(ord("S"));
+kd = keyboard_check(ord("S")) || keyboard_check(vk_down);
 kj = keyboard_check_pressed(vk_space);
+var onFloor = place_meeting(x+hv,y, oWall);
 var walk = kr - kl;
 hv = walk * mv;
 
@@ -41,3 +42,5 @@ if (place_meeting(x,y+vv, oWall)) {
 }
 
 y += vv;
+
+if (hv != 0) image_xscale = sign(hv);

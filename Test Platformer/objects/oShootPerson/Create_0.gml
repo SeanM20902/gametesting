@@ -1,0 +1,2 @@
+shootDelay = 0;
+
