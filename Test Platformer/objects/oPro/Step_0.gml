@@ -44,3 +44,13 @@ if (place_meeting(x,y+vv, oWall)) {
 y += vv;
 
 if (hv != 0) image_xscale = sign(hv);
+
+// lateral bullet deflection
+if (place_meeting(x - 10 ,y, oLaser) || place_meeting(x + 10,y ,oLaser)) {
+	if (mouse_check_button(mb_left))
+			with (instance_create_layer(x,y,"Lasers", oLaser)) {
+				speed = 2;
+				direction = 0;
+				image_angle = 0;
+			}
+}
